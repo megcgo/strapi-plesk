@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_multimedia_galerias",
+  "info": {
+    "displayName": "GaleriaItems",
+    "icon": "images",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Legenda": {
+      "type": "string"
+    },
+    "Imagem": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
