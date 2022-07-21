@@ -108,6 +108,7 @@ coverage
 
 .env
 .env.production
+.env.production.render
 license.txt
 exports
 *.cache
