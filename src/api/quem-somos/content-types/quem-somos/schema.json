@@ -16,6 +16,14 @@
     }
   },
   "attributes": {
+    "Titulo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
     "Descricao": {
       "pluginOptions": {
         "i18n": {
@@ -39,22 +47,12 @@
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+      "allowedTypes": ["images"],
       "pluginOptions": {
         "i18n": {
           "localized": false
         }
       }
-    },
-    "Titulo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
     }
   }
 }
